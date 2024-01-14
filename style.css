@@ -8,7 +8,6 @@ html,body
 {
     width:100%;
     height:100%;
-    overflow: hidden;
 }
 @font-face
 {
@@ -143,6 +142,10 @@ html,body
     justify-content: center;
     z-index: 1;
 }
+.heroimage img
+{
+    transition: all ease 0.4s;
+}
 .main2
 {
     position: absolute;
@@ -158,6 +161,7 @@ html,body
     align-items: center;
     justify-content: space-evenly;
     padding-top: 20vh;
+    pointer-events:none;
 }
 .text2
 {
@@ -189,6 +193,7 @@ html,body
     -webkit-text-stroke:2px #FF3D00;
     font-weight: 900;
     font-style: italic;
+    pointer-events:all;
 }
 .ol2:hover
 {
@@ -198,6 +203,7 @@ html,body
 {
     display: flex;
     justify-content: center;
+    pointer-events: all;
 }
 
 #btn {

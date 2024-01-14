@@ -55,7 +55,6 @@ gsap.from(".logo",1,{
   
 })
 
-
 Shery.makeMagnet("#btn" /* Element to target.*/, {
     //Parameters are optional.
     ease: "cubic-bezier(0.23, 1, 0.320, 1)",
